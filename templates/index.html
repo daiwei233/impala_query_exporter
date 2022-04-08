@@ -1,0 +1,16 @@
+<html>
+<head>
+    <title>Impala exporter management</title>
+</head>
+<body>
+
+<h1>Impala exporter management URLs</h1>
+<ul>
+{% for url in endpoints %}
+    <li>
+        <a href="{{ url }}">{{ url }}</a>
+    </li>
+{% endfor %}
+</ul>
+</body>
+</html>
